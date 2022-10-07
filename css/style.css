@@ -132,7 +132,7 @@ img {
 @media screen and (max-width: 786px) {
 
     .container {
-        width: 786px;
+        max-width: 786px;
     }
 
 
@@ -170,10 +170,13 @@ img {
 
     .why-us {
         background-color: black;
-        margin-bottom: 0;
-        margin-top: -3rem;
+        margin-bottom: 0
         padding-bottom: 3rem;
         padding-top: 3rem;
+    }
+
+    .steps {
+        margin-bottom: 0rem;
     }
 
 }

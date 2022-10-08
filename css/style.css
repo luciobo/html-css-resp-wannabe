@@ -128,12 +128,23 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ @media screen and (max-width: 1160px) {
+
+    .container {
+        max-width: 100%;
+        
+    }
+}
+
+
 
 @media screen and (max-width: 786px) {
 
     .container {
-        max-width: 786px;
+        max-width: 100%;
+        
     }
+}
 
 
 
@@ -145,6 +156,7 @@ img {
 
     .row {
         flex-direction: column;
+        row-gap: 1.5rem;
     }
 
     .card {
